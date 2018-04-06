@@ -14,7 +14,7 @@ There are no TODO lists to show.
 <ul>
 {% for l in todo_lists %}
     <li>
-        <a href="{{ url_for('all_lists',ident=l.id)}}">{{ l.title }}</a>
+        <a href="{{ url_for('see_all',ident=l.id)}}">{{ l.title }}</a>
     </li>
 {% endfor %}
 </ul>
